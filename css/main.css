@@ -1,0 +1,69 @@
+* {
+  color: #036;
+  font-family: 'M PLUS 1 Code', sans-serif;
+}
+
+body {
+  padding-bottom: 4.5rem;
+}
+
+#about img {
+  width: 128px;
+}
+
+#about p {
+  margin-left: 140px;
+}
+
+#about a > img {
+  width: 40px;
+  height: 40px;
+}
+
+#about .certifications {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#contact img {
+  height: 40px;
+}
+
+.bg-img {
+  background-image: url('../images/header_large.jpg');
+  background-size : cover;
+  background-position: center 60%;
+}
+
+.outline {
+  display        : inline-block;
+  color          : #ffffff;            /* 文字の色 */
+  letter-spacing : 4px;                /* 文字間 */
+  text-shadow    : 
+       2px  2px 1px #003366,
+      -2px  2px 1px #003366,
+       2px -2px 1px #003366,
+      -2px -2px 1px #003366,
+       2px  0px 1px #003366,
+       0px  2px 1px #003366,
+      -2px  0px 1px #003366,
+       0px -2px 1px #003366;        /* 文字の影 */
+}
+
+.ct-period-start {
+  padding-right: 20px!important;
+}
+
+.ct-period-line-color {
+  border-color: #036!important;
+}
+
+.ct-font-color {
+  color: #036!important;
+}
+
+
+.nav-pills .nav-link.active {
+  background-color: #ccc!important;
+}
