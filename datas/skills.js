@@ -202,6 +202,16 @@ const skills = [
                 period  : '5年',
             },
             {
+                name    : 'Google Apps Script',
+                business: true,
+                period  : '3年',
+            },
+            {
+                name    : 'Jenkins',
+                business: true,
+                period  : '1年',
+            },
+            {
                 name    : 'JMeter',
                 business: true,
                 period  : '1ヶ月',
@@ -210,11 +220,6 @@ const skills = [
                 name    : 'JUnit',
                 business: true,
                 period  : '半年',
-            },
-            {
-                name    : 'Jenkins',
-                business: true,
-                period  : '1年',
             },
             {
                 name    : 'Rundeck',
