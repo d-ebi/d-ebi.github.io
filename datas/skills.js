@@ -127,6 +127,16 @@ const skills = [
                 period  : '1年',
             },
             {
+                name    : 'Hadoop',
+                business: true,
+                period  : '1年',
+            },
+            {
+                name    : 'Hive',
+                business: true,
+                period  : '1年',
+            },
+            {
                 name    : 'MySQL',
                 business: true,
                 period  : '2年',
