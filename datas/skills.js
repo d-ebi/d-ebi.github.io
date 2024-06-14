@@ -6,7 +6,7 @@ const skills = [
             {
                 name    : 'Bash',
                 business: true,
-                period  : '5年',
+                period  : '6年',
             },
             {
                 name    : 'C言語',
@@ -21,22 +21,27 @@ const skills = [
             {
                 name    : 'CSS3',
                 business: true,
-                period  : '5年',
+                period  : '6年',
             },
             {
                 name    : 'HTML5',
                 business: true,
-                period  : '5年',
+                period  : '6年',
             },
             {
                 name    : 'Java',
                 business: true,
-                period  : '4年',
+                period  : '5年',
+            },
+            {
+                name    : 'Groovy',
+                business: true,
+                period  : '3ヶ月',
             },
             {
                 name    : 'JavaScript',
                 business: true,
-                period  : '5年',
+                period  : '7年',
             },
             {
                 name    : 'Python3',
@@ -51,13 +56,13 @@ const skills = [
         ]
     },
     {
-        title      : 'フレームワーク',
+        title      : 'フレームワークなど',
         icon       : 'build',
         items: [
             {
                 name    : 'Bootstrap3',
                 business: true,
-                period  : '半年',
+                period  : '1年',
             },
             {
                 name    : 'Bootstrap4',
@@ -66,8 +71,8 @@ const skills = [
             },
             {
                 name    : 'Bootstrap5',
-                business: false,
-                period  : '2ヶ月',
+                business: true,
+                period  : '1年',
             },
             {
                 name    : 'Django',
@@ -85,9 +90,19 @@ const skills = [
                 period  : '半年',
             },
             {
+                name    : 'Bottle',
+                business: false,
+                period  : '1ヶ月',
+            },
+            {
+                name    : 'MicroPython',
+                business: false,
+                period  : '3ヶ月',
+            },
+            {
                 name    : 'jQuery3',
                 business: true,
-                period  : '1年',
+                period  : '2年',
             },
             {
                 name    : 'Ruby on Rails',
@@ -97,7 +112,7 @@ const skills = [
             {
                 name    : 'Spring Boot',
                 business: true,
-                period  : '半年',
+                period  : '2年',
             },
             {
                 name    : 'Spring MVC',
@@ -107,16 +122,30 @@ const skills = [
             {
                 name    : 'Thymleaf',
                 business: true,
-                period  : '半年',
+                period  : '2年',
             },
             {
                 name    : 'Vue 3',
                 business: false,
                 period  : '2ヶ月',
             },
+            {
+                name    : 'Next.js',
+                business: true,
+                period  : '3ヶ月',
+            },
+            {
+                name    : 'Strapi',
+                business: true,
+                period  : '3ヶ月',
+            },
+            {
+                name    : 'WordPress',
+                business: true,
+                period  : '2ヶ月',
+            },
         ]
     },
-
     {
         title      : 'DB・DWH',
         icon       : 'storage',
@@ -144,39 +173,58 @@ const skills = [
             {
                 name    : 'PostgreSQL',
                 business: true,
-                period  : '1年',
+                period  : '2年',
+            },
+            {
+                name    : 'Pgpool-II',
+                business: true,
+                period  : '1ヶ月',
             },
             {
                 name    : 'SQLite3',
                 business: true,
                 period  : '半年',
             },
+            {
+                name    : 'Redis',
+                business: true,
+                period  : '半年',
+            },
+            {
+                name    : 'Elasticsearch',
+                business: true,
+                period  : '1ヶ月',
+            },
+            {
+                name    : 'Apache Solr',
+                business: true,
+                period  : '1ヶ月',
+            },
+            {
+                name    : 'InfluxDB',
+                business: false,
+                period  : '1ヶ月',
+            },
         ]
     },
-
     {
-        title      : 'サーバ・OS',
-        icon       : 'computer',
+        title      : 'ハードウェア',
+        icon       : 'developer_board',
         items: [
             {
-                name    : 'Apache Web Server',
-                business: true,
-                period  : '1年',
+                name    : 'ESP32',
+                business: false,
+                period  : '2ヶ月',
             },
             {
-                name    : 'Apache Tomcat',
-                business: true,
-                period  : '1年',
+                name    : 'Raspberry Pi',
+                business: false,
+                period  : '半年',
             },
             {
-                name    : 'CentOS',
-                business: true,
-                period  : '3年',
-            },
-            {
-                name    : 'Ubuntu',
-                business: true,
-                period  : '4年',
+                name    : 'Raspberry Pi Pico W',
+                business: false,
+                period  : '3ヶ月',
             },
         ]
     },
@@ -196,7 +244,57 @@ const skills = [
             },
         ]
     },
-
+    {
+        title      : 'サーバ・OS',
+        icon       : 'computer',
+        items: [
+            {
+                name    : 'Apache Web Server',
+                business: true,
+                period  : '2年',
+            },
+            {
+                name    : 'nginx',
+                business: true,
+                period  : '3ヶ月',
+            },
+            {
+                name    : 'Apache Tomcat',
+                business: true,
+                period  : '2年',
+            },
+            {
+                name    : 'Node.js',
+                business: true,
+                period  : '3ヶ月',
+            },
+            {
+                name    : 'CentOS',
+                business: true,
+                period  : '4年',
+            },
+            {
+                name    : 'Ubuntu',
+                business: true,
+                period  : '4年',
+            },
+            {
+                name    : 'Debian',
+                business: false,
+                period  : '半年',
+            },
+            {
+                name    : 'Zabbix',
+                business: true,
+                period  : '1ヶ月',
+            },
+            {
+                name    : 'Grafana',
+                business: false,
+                period  : '1ヶ月',
+            },
+        ]
+    },
     {
         title      : 'その他',
         icon       : 'construction',
@@ -209,7 +307,7 @@ const skills = [
             {
                 name    : 'Git',
                 business: true,
-                period  : '5年',
+                period  : '6年',
             },
             {
                 name    : 'Google Apps Script',
