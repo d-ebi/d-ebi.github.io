@@ -138,7 +138,7 @@ const works = [
                 {
                     type: 'video',
                     text: 'DIYスマートロック動作動画2',
-                    src : '/videos/smartlock_2.mov',
+                    src : '/videos/smartlock_2.mp4',
                 }
             ]
         },
